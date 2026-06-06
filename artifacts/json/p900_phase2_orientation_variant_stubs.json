@@ -1,0 +1,63 @@
+{
+  "all_variants_uniform_external_degree_4": true,
+  "first_read": [
+    "The P900 external surface layer remains degree-disciplined under identity, half-turn, and one-step orientation maps.",
+    "This suggests the G15 surface grammar is not fragile under simple local orientation shifts.",
+    "No internal G60 edges are included yet.",
+    "No M or Q interface rule is included yet."
+  ],
+  "g15_edges": 30,
+  "g15_model": "L(Petersen)",
+  "g15_positions": 15,
+  "g60_local_states_per_position": 60,
+  "name": "P900 Phase 2 Orientation Variant Stubs",
+  "next_tests": [
+    "test edge-labeled coupling where each G15 edge chooses a distinct local map",
+    "test half-turn maps against the G30 orientation-restoration intuition",
+    "add real internal G60 edges when canonical data is available",
+    "compare M-guided and Q-guided interface rules against these naive baselines"
+  ],
+  "p900_state_count": 900,
+  "status": "sandbox_hypothesis",
+  "tested_maps": [
+    "identity",
+    "half_turn_plus_30",
+    "forward_step_plus_1",
+    "backward_step_minus_1"
+  ],
+  "variant_summaries": {
+    "backward_step_minus_1": {
+      "edge_count": 1800,
+      "external_degree_histogram": {
+        "4": 900
+      },
+      "external_degree_max": 4,
+      "external_degree_min": 4
+    },
+    "forward_step_plus_1": {
+      "edge_count": 1800,
+      "external_degree_histogram": {
+        "4": 900
+      },
+      "external_degree_max": 4,
+      "external_degree_min": 4
+    },
+    "half_turn_plus_30": {
+      "edge_count": 1800,
+      "external_degree_histogram": {
+        "4": 900
+      },
+      "external_degree_max": 4,
+      "external_degree_min": 4
+    },
+    "identity": {
+      "edge_count": 1800,
+      "external_degree_histogram": {
+        "4": 900
+      },
+      "external_degree_max": 4,
+      "external_degree_min": 4
+    }
+  },
+  "warning": "These are simple orientation maps, not proven P900 interface laws."
+}
