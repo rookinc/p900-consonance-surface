@@ -1,0 +1,624 @@
+{
+  "automorphism_count": 120,
+  "candidate_half_turn_set": [
+    1,
+    3,
+    5,
+    7,
+    9
+  ],
+  "candidate_orbit_rank": 3,
+  "first_read": [
+    "Phase 11 groups the 252 half-turn sets into Petersen-automorphism orbits.",
+    "This distinguishes intrinsic split families from arbitrary labeled representatives.",
+    "If the best gap-1 splits form one or more full orbits, they define candidate consonance families.",
+    "The previous odd-vertex split can now be treated as a member of its orbit rather than a privileged label rule."
+  ],
+  "name": "P900 Phase 11 Vertex Split Orbit Audit",
+  "orbit_count": 6,
+  "orbits": [
+    {
+      "distinct_profile_count": 1,
+      "gap_histogram": {
+        "1": 60
+      },
+      "orbit_size": 60,
+      "representative": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "representative_profile": {
+        "closure_type_histogram": {
+          "half_turn_closure": 279,
+          "identity_closure": 278
+        },
+        "edge_label_counts": {
+          "half_turn": 15,
+          "identity": 15
+        },
+        "half_turn_closure_count": 279,
+        "identity_closure_count": 278,
+        "identity_half_turn_balance_gap": 1,
+        "orientation_drift_count": 0
+      },
+      "sample_sets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          5,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          7,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          8
+        ],
+        [
+          0,
+          1,
+          3,
+          5,
+          8
+        ],
+        [
+          0,
+          1,
+          3,
+          6,
+          8
+        ]
+      ]
+    },
+    {
+      "distinct_profile_count": 1,
+      "gap_histogram": {
+        "1": 60
+      },
+      "orbit_size": 60,
+      "representative": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "representative_profile": {
+        "closure_type_histogram": {
+          "half_turn_closure": 279,
+          "identity_closure": 278
+        },
+        "edge_label_counts": {
+          "half_turn": 15,
+          "identity": 15
+        },
+        "half_turn_closure_count": 279,
+        "identity_closure_count": 278,
+        "identity_half_turn_balance_gap": 1,
+        "orientation_drift_count": 0
+      },
+      "sample_sets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          5,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          7,
+          8
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          7
+        ],
+        [
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          3,
+          5,
+          7
+        ],
+        [
+          0,
+          1,
+          3,
+          6,
+          9
+        ],
+        [
+          0,
+          1,
+          4,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          4,
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "distinct_profile_count": 1,
+      "gap_histogram": {
+        "7": 30
+      },
+      "orbit_size": 30,
+      "representative": [
+        0,
+        1,
+        2,
+        8,
+        9
+      ],
+      "representative_profile": {
+        "closure_type_histogram": {
+          "half_turn_closure": 275,
+          "identity_closure": 282
+        },
+        "edge_label_counts": {
+          "half_turn": 15,
+          "identity": 15
+        },
+        "half_turn_closure_count": 275,
+        "identity_closure_count": 282,
+        "identity_half_turn_balance_gap": 7,
+        "orientation_drift_count": 0
+      },
+      "sample_sets": [
+        [
+          0,
+          1,
+          2,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          5,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          4,
+          7,
+          8
+        ],
+        [
+          0,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          0,
+          2,
+          3,
+          8,
+          9
+        ],
+        [
+          0,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          2,
+          4,
+          8,
+          9
+        ],
+        [
+          0,
+          2,
+          5,
+          8,
+          9
+        ],
+        [
+          0,
+          2,
+          6,
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "distinct_profile_count": 1,
+      "gap_histogram": {
+        "7": 30
+      },
+      "orbit_size": 30,
+      "representative": [
+        0,
+        1,
+        3,
+        7,
+        8
+      ],
+      "representative_profile": {
+        "closure_type_histogram": {
+          "half_turn_closure": 275,
+          "identity_closure": 282
+        },
+        "edge_label_counts": {
+          "half_turn": 15,
+          "identity": 15
+        },
+        "half_turn_closure_count": 275,
+        "identity_closure_count": 282,
+        "identity_half_turn_balance_gap": 7,
+        "orientation_drift_count": 0
+      },
+      "sample_sets": [
+        [
+          0,
+          1,
+          3,
+          7,
+          8
+        ],
+        [
+          0,
+          1,
+          3,
+          7,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          7,
+          8,
+          9
+        ],
+        [
+          0,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          0,
+          2,
+          3,
+          5,
+          9
+        ],
+        [
+          0,
+          2,
+          3,
+          6,
+          9
+        ],
+        [
+          0,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          0,
+          2,
+          4,
+          6,
+          8
+        ],
+        [
+          0,
+          2,
+          4,
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "distinct_profile_count": 1,
+      "gap_histogram": {
+        "15": 12
+      },
+      "orbit_size": 12,
+      "representative": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "representative_profile": {
+        "closure_type_histogram": {
+          "half_turn_closure": 271,
+          "identity_closure": 286
+        },
+        "edge_label_counts": {
+          "half_turn": 15,
+          "identity": 15
+        },
+        "half_turn_closure_count": 271,
+        "identity_closure_count": 286,
+        "identity_half_turn_balance_gap": 15,
+        "orientation_drift_count": 0
+      },
+      "sample_sets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          5,
+          7
+        ],
+        [
+          0,
+          1,
+          4,
+          6,
+          9
+        ],
+        [
+          0,
+          1,
+          5,
+          6,
+          8
+        ],
+        [
+          0,
+          3,
+          4,
+          5,
+          8
+        ],
+        [
+          0,
+          4,
+          5,
+          7,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          8
+        ],
+        [
+          1,
+          2,
+          6,
+          7,
+          9
+        ],
+        [
+          2,
+          3,
+          4,
+          7,
+          9
+        ],
+        [
+          2,
+          3,
+          5,
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "distinct_profile_count": 1,
+      "gap_histogram": {
+        "17": 60
+      },
+      "orbit_size": 60,
+      "representative": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "representative_profile": {
+        "closure_type_histogram": {
+          "half_turn_closure": 287,
+          "identity_closure": 270
+        },
+        "edge_label_counts": {
+          "half_turn": 15,
+          "identity": 15
+        },
+        "half_turn_closure_count": 287,
+        "identity_closure_count": 270,
+        "identity_half_turn_balance_gap": 17,
+        "orientation_drift_count": 0
+      },
+      "sample_sets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          9
+        ]
+      ]
+    }
+  ],
+  "status": "sandbox_audit",
+  "tested_half_turn_sets": 252,
+  "warning": "This classifies 5-of-10 Petersen vertex splits under automorphisms. It does not prove a final P900 law."
+}
