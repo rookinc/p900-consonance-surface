@@ -1,0 +1,149 @@
+{
+  "avoid_language": [
+    "final P900 law",
+    "unique P900 graph",
+    "canonical representative selected",
+    "Orbit 1 defeats Orbit 2",
+    "Orbit 2 defeats Orbit 1"
+  ],
+  "criteria": [
+    {
+      "criterion": "local_balance_score",
+      "winners": [
+        "gap1_orbit_2_representative"
+      ],
+      "winning_value": 13
+    },
+    {
+      "criterion": "max_length_gap",
+      "winners": [
+        "gap1_orbit_2_representative"
+      ],
+      "winning_value": 7
+    },
+    {
+      "criterion": "perfectly_balanced_length_count",
+      "winners": [
+        "gap1_orbit_2_representative"
+      ],
+      "winning_value": 3
+    },
+    {
+      "criterion": "diameter8_vertices",
+      "winners": [
+        "gap1_orbit_1_representative"
+      ],
+      "winning_value": 32
+    },
+    {
+      "criterion": "eccentricity6_vertices",
+      "winners": [
+        "gap1_orbit_1_representative"
+      ],
+      "winning_value": 342
+    }
+  ],
+  "inputs": {
+    "phase15": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/p900-consonance-surface/artifacts/json/p900_phase15_local_balance_score.json",
+    "phase25": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/p900-consonance-surface/artifacts/json/p900_phase25_gap1_orbits_after_g60.json",
+    "phase26": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/p900-consonance-surface/artifacts/json/p900_phase26_preference_tension_checkpoint.json"
+  },
+  "interpretation": [
+    "Both gap-1 orbit representatives remain closure-bearing after internal G60 import.",
+    "Orbit 2 remains favored by pre-G60 local cycle-balance measures.",
+    "Orbit 1 is favored by post-G60 global tightness measures.",
+    "The multi-invariant selector records this tension rather than erasing it.",
+    "A final selector should wait for layer recoverability, all-root shells, and automorphism/relabeling tests."
+  ],
+  "name": "P900 Phase 27 Multi-Invariant Selector",
+  "next_tests": [
+    "Phase 28 all-root shell profile comparison.",
+    "Phase 29 layer recoverability audit.",
+    "Phase 30 combined graph export for Aletheos renderer."
+  ],
+  "phase": 27,
+  "provisional_selector": "gap1_orbit_2_representative",
+  "safe_language": [
+    "multi-invariant selector checkpoint",
+    "provisional selector",
+    "closure-bearing candidates",
+    "local-balance criterion",
+    "global-tightness criterion"
+  ],
+  "scorecard": {
+    "gap1_orbit_1_representative": 2.0,
+    "gap1_orbit_2_representative": 3.0
+  },
+  "selector_rows": [
+    {
+      "closes_after_g60": true,
+      "combined_edge_count": 3600,
+      "degree_histogram": {
+        "8": 900
+      },
+      "diameter": 8,
+      "diameter8_vertices": 32,
+      "eccentricity6_vertices": 342,
+      "eccentricity_histogram": {
+        "6": 342,
+        "7": 526,
+        "8": 32
+      },
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "identity_set": [
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "local_balance_score": 17,
+      "max_length_gap": 8,
+      "name": "gap1_orbit_1_representative",
+      "perfectly_balanced_length_count": 2,
+      "total_balance_gap": 1
+    },
+    {
+      "closes_after_g60": true,
+      "combined_edge_count": 3600,
+      "degree_histogram": {
+        "8": 900
+      },
+      "diameter": 8,
+      "diameter8_vertices": 48,
+      "eccentricity6_vertices": 327,
+      "eccentricity_histogram": {
+        "6": 327,
+        "7": 525,
+        "8": 48
+      },
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "identity_set": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "local_balance_score": 13,
+      "max_length_gap": 7,
+      "name": "gap1_orbit_2_representative",
+      "perfectly_balanced_length_count": 3,
+      "total_balance_gap": 1
+    }
+  ],
+  "status": "multi_invariant_selector_checkpoint",
+  "warning": "This is a selector checkpoint, not a final P900 law or uniqueness proof."
+}
