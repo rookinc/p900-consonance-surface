@@ -1,0 +1,605 @@
+{
+  "candidate_audits": [
+    {
+      "combined_edge_count": 3600,
+      "component_count": 1,
+      "component_size_histogram": {
+        "900": 1
+      },
+      "connected": true,
+      "degree_histogram": {
+        "8": 900
+      },
+      "diameter_if_connected": 8,
+      "duplicate_edge_count": 0,
+      "eccentricity_histogram": {
+        "6": 342,
+        "7": 526,
+        "8": 32
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "edge_law_table_first_10": [
+        {
+          "g15_edge": [
+            0,
+            1
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            0,
+            1
+          ],
+          "petersen_edge_b": [
+            1,
+            2
+          ],
+          "shared_vertex": 1,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            0,
+            4
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            0,
+            1
+          ],
+          "petersen_edge_b": [
+            4,
+            0
+          ],
+          "shared_vertex": 0,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            0,
+            5
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            0,
+            1
+          ],
+          "petersen_edge_b": [
+            0,
+            5
+          ],
+          "shared_vertex": 0,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            0,
+            6
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            0,
+            1
+          ],
+          "petersen_edge_b": [
+            1,
+            6
+          ],
+          "shared_vertex": 1,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            1,
+            2
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            1,
+            2
+          ],
+          "petersen_edge_b": [
+            2,
+            3
+          ],
+          "shared_vertex": 2,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            1,
+            6
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            1,
+            2
+          ],
+          "petersen_edge_b": [
+            1,
+            6
+          ],
+          "shared_vertex": 1,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            1,
+            7
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            1,
+            2
+          ],
+          "petersen_edge_b": [
+            2,
+            7
+          ],
+          "shared_vertex": 2,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            2,
+            3
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            2,
+            3
+          ],
+          "petersen_edge_b": [
+            3,
+            4
+          ],
+          "shared_vertex": 3,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            2,
+            7
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            2,
+            3
+          ],
+          "petersen_edge_b": [
+            2,
+            7
+          ],
+          "shared_vertex": 2,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            2,
+            8
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            2,
+            3
+          ],
+          "petersen_edge_b": [
+            3,
+            8
+          ],
+          "shared_vertex": 3,
+          "shift_mod60": 30
+        }
+      ],
+      "external_edge_count": 1800,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "identity_set": [
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "internal_edge_count": 1800,
+      "name": "gap1_orbit_1_representative",
+      "sample_root_shell_profiles": {
+        "0": [
+          1,
+          8,
+          52,
+          175,
+          329,
+          257,
+          77,
+          1
+        ],
+        "1": [
+          1,
+          8,
+          52,
+          186,
+          350,
+          260,
+          43
+        ],
+        "30": [
+          1,
+          8,
+          52,
+          200,
+          329,
+          238,
+          72
+        ],
+        "420": [
+          1,
+          8,
+          42,
+          141,
+          307,
+          301,
+          99,
+          1
+        ],
+        "59": [
+          1,
+          8,
+          52,
+          175,
+          336,
+          270,
+          57,
+          1
+        ],
+        "60": [
+          1,
+          8,
+          52,
+          175,
+          329,
+          257,
+          77,
+          1
+        ],
+        "899": [
+          1,
+          8,
+          42,
+          143,
+          302,
+          306,
+          97,
+          1
+        ]
+      },
+      "vertex_count": 900
+    },
+    {
+      "combined_edge_count": 3600,
+      "component_count": 1,
+      "component_size_histogram": {
+        "900": 1
+      },
+      "connected": true,
+      "degree_histogram": {
+        "8": 900
+      },
+      "diameter_if_connected": 8,
+      "duplicate_edge_count": 0,
+      "eccentricity_histogram": {
+        "6": 327,
+        "7": 525,
+        "8": 48
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "edge_law_table_first_10": [
+        {
+          "g15_edge": [
+            0,
+            1
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            0,
+            1
+          ],
+          "petersen_edge_b": [
+            1,
+            2
+          ],
+          "shared_vertex": 1,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            0,
+            4
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            0,
+            1
+          ],
+          "petersen_edge_b": [
+            4,
+            0
+          ],
+          "shared_vertex": 0,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            0,
+            5
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            0,
+            1
+          ],
+          "petersen_edge_b": [
+            0,
+            5
+          ],
+          "shared_vertex": 0,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            0,
+            6
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            0,
+            1
+          ],
+          "petersen_edge_b": [
+            1,
+            6
+          ],
+          "shared_vertex": 1,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            1,
+            2
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            1,
+            2
+          ],
+          "petersen_edge_b": [
+            2,
+            3
+          ],
+          "shared_vertex": 2,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            1,
+            6
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            1,
+            2
+          ],
+          "petersen_edge_b": [
+            1,
+            6
+          ],
+          "shared_vertex": 1,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            1,
+            7
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            1,
+            2
+          ],
+          "petersen_edge_b": [
+            2,
+            7
+          ],
+          "shared_vertex": 2,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            2,
+            3
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            2,
+            3
+          ],
+          "petersen_edge_b": [
+            3,
+            4
+          ],
+          "shared_vertex": 3,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            2,
+            7
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            2,
+            3
+          ],
+          "petersen_edge_b": [
+            2,
+            7
+          ],
+          "shared_vertex": 2,
+          "shift_mod60": 30
+        },
+        {
+          "g15_edge": [
+            2,
+            8
+          ],
+          "label": "half_turn",
+          "petersen_edge_a": [
+            2,
+            3
+          ],
+          "petersen_edge_b": [
+            3,
+            8
+          ],
+          "shared_vertex": 3,
+          "shift_mod60": 30
+        }
+      ],
+      "external_edge_count": 1800,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "identity_set": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "internal_edge_count": 1800,
+      "name": "gap1_orbit_2_representative",
+      "sample_root_shell_profiles": {
+        "0": [
+          1,
+          8,
+          52,
+          175,
+          315,
+          261,
+          87,
+          1
+        ],
+        "1": [
+          1,
+          8,
+          52,
+          186,
+          344,
+          264,
+          45
+        ],
+        "30": [
+          1,
+          8,
+          52,
+          200,
+          327,
+          232,
+          80
+        ],
+        "420": [
+          1,
+          8,
+          42,
+          142,
+          308,
+          297,
+          101,
+          1
+        ],
+        "59": [
+          1,
+          8,
+          52,
+          175,
+          324,
+          274,
+          65,
+          1
+        ],
+        "60": [
+          1,
+          8,
+          52,
+          174,
+          324,
+          255,
+          82,
+          4
+        ],
+        "899": [
+          1,
+          8,
+          32,
+          105,
+          253,
+          342,
+          146,
+          13
+        ]
+      },
+      "vertex_count": 900
+    }
+  ],
+  "comparison": {
+    "both_connected": true,
+    "diameters": {
+      "gap1_orbit_1_representative": 8,
+      "gap1_orbit_2_representative": 8
+    },
+    "eccentricity_histograms": {
+      "gap1_orbit_1_representative": {
+        "6": 342,
+        "7": 526,
+        "8": 32
+      },
+      "gap1_orbit_2_representative": {
+        "6": 327,
+        "7": 525,
+        "8": 48
+      }
+    },
+    "same_combined_edge_count": true,
+    "same_degree_histogram": true,
+    "same_diameter": true,
+    "same_eccentricity_histogram": false
+  },
+  "first_read": [
+    "Both gap-1 orbit representatives are tested after adding the same 15 internal canonical G60 copies.",
+    "This checks whether Phase 24 closure is unique to the preferred representative or generic across the two best external orbit families.",
+    "Both representatives produce connected combined P900 graphs.",
+    "The basic global distance profile distinguishes the two representatives."
+  ],
+  "name": "P900 Phase 25 Gap-1 Orbits After G60",
+  "phase": 25,
+  "purpose": "Compare the two Phase 13 gap-1 orbit representatives after internal G60 import.",
+  "source_artifacts": {
+    "g60_import": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/p900-consonance-surface/artifacts/json/p900_phase22_canonical_g60_import.json"
+  },
+  "status": "gap1_orbits_both_close_but_differ_after_g60",
+  "warning": "This is a basic combined-graph comparison. It does not prove uniqueness or finality."
+}
