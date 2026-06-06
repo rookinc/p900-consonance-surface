@@ -1,0 +1,57 @@
+{
+  "checks": {
+    "combined_edge_count_is_3600": true,
+    "connected": true,
+    "degree_regular_8": true,
+    "duplicate_edge_count_is_0": true,
+    "external_edge_count_is_1800": true,
+    "g60_source_import_ok": true,
+    "internal_edge_count_is_1800": true,
+    "p900_vertex_count_is_900": true
+  },
+  "component_summary": [
+    {
+      "index": 0,
+      "residue_mod30_count": 30,
+      "residue_mod30_histogram": {
+        "30": 30
+      },
+      "sector_count_histogram": {
+        "60": 15
+      },
+      "size": 900
+    }
+  ],
+  "counts": {
+    "combined_edge_count": 3600,
+    "component_count": 1,
+    "component_size_histogram": {
+      "900": 1
+    },
+    "connected": true,
+    "degree_histogram": {
+      "8": 900
+    },
+    "diameter_if_connected": 8,
+    "duplicate_edge_count": 0,
+    "external_edge_count": 1800,
+    "internal_edge_count": 1800,
+    "vertex_count": 900
+  },
+  "first_read": [
+    "The combined graph overlays 15 internal G60 copies with the preferred Phase 17 external P900 layer.",
+    "Internal edges give each state 4 within-sector neighbors.",
+    "External edges give each state 4 inter-sector neighbors.",
+    "If there is no overlap, the combined candidate should be 8-regular with 3600 edges.",
+    "The combined graph is connected; this is the first positive closure-style checkpoint."
+  ],
+  "name": "P900 Phase 23 Combined G60 + External Graph Audit",
+  "next_phase": "Phase 24 should interpret the component/closure result and test whether the second gap-1 orbit changes the combined graph profile.",
+  "phase": 23,
+  "source_artifacts": {
+    "external_edge_list": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/p900-consonance-surface/artifacts/json/p900_phase17_external_edge_list.json",
+    "g60_import": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/p900-consonance-surface/artifacts/json/p900_phase22_canonical_g60_import.json"
+  },
+  "status": "combined_graph_connected",
+  "warning": "This audits the first combined graph candidate. It is not yet a final P900 theorem."
+}
