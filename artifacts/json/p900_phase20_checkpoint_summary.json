@@ -1,0 +1,91 @@
+{
+  "checkpoint_ok": true,
+  "checks": {
+    "address_space_is_900": true,
+    "components_are_single_mod30_residue": true,
+    "components_are_size_30": true,
+    "components_have_all_15_sectors": true,
+    "components_have_two_states_per_sector": true,
+    "external_component_count_is_30": true,
+    "external_degree_uniform_4": true,
+    "external_edge_count_is_1800": true,
+    "external_layer_not_connected": true,
+    "sheets_are_2_lifts_of_g15": true,
+    "sheets_are_4_regular": true,
+    "sheets_have_60_edges": true,
+    "sheets_same_type": true
+  },
+  "current_claim_ladder": [
+    "P900 is currently treated as a candidate consonance surface, not a proven graph identity.",
+    "The address space is 15 x 60 = 900 states.",
+    "G15 = L(Petersen) supplies the inter-thalion adjacency grammar.",
+    "Binary 0/30 sign grammar eliminates orientation drift in the audited cycle holonomy tests.",
+    "The first labeled candidate law from Phase 7 was superseded by an orbit-family view in Phases 10-13.",
+    "The current preferred representative is gap1_orbit_2 with half-turn set [0,1,2,3,9].",
+    "The preferred external edge law produces 1800 inter-thalion edges and uniform external degree 4.",
+    "The external-only layer decomposes into 30 components of size 30.",
+    "Each component is indexed by one residue mod 30 and contains two states per G15 sector.",
+    "Each component is a doubled-G15 sheet, a 2-lift of G15 with 15 cross and 15 parallel lifted edges.",
+    "Therefore the preferred external P900 layer is a G30-indexed family of identical doubled-G15 sheets."
+  ],
+  "do_not_claim_yet": [
+    "Do not claim P900 is a fully constructed thalion-cluster graph.",
+    "Do not claim the preferred representative is the final P900 law.",
+    "Do not claim the external layer alone is connected.",
+    "Do not claim internal G60 structure has been added.",
+    "Do not identify P900 with AT4val[60,6] or any known graph census object."
+  ],
+  "generated_utc": "2026-06-06T10:48:56.920597+00:00",
+  "key_artifacts": {
+    "phase12_supersession_note": "p900_phase12_candidate_law_supersession_note.json",
+    "phase13_candidate_orbit_families": "p900_phase13_candidate_orbit_families.json",
+    "phase15_local_balance_score": "p900_phase15_local_balance_score.json",
+    "phase16_preferred_edge_law": "p900_phase16_preferred_representative_edge_law.json",
+    "phase17_external_edge_list": "p900_phase17_external_edge_list.json",
+    "phase18_component_structure": "p900_phase18_component_structure.json",
+    "phase19_doubled_g15_sheet_audit": "p900_phase19_doubled_g15_sheet_audit.json",
+    "phase8_verification_packet": "p900_phase8_candidate_law_verification_packet.json"
+  },
+  "name": "P900 Phase 20 Checkpoint Summary",
+  "next_steps": [
+    "write a README checkpoint section",
+    "prepare internal G60 import strategy",
+    "locate canonical G60/thalean graph edge data",
+    "test whether adding internal G60 edges connects the 30 doubled-G15 sheets",
+    "compare the preferred representative against the second gap-1 orbit after internal edges are added"
+  ],
+  "numeric_summary": {
+    "component_count": 30,
+    "component_size_histogram": {
+      "30": 30
+    },
+    "external_degree_histogram": {
+      "4": 900
+    },
+    "external_edges": 1800,
+    "local_balance_score": 13,
+    "p900_vertices": 900,
+    "preferred_family": "gap1_orbit_2_representative",
+    "preferred_half_turn_set": [
+      0,
+      1,
+      2,
+      3,
+      9
+    ],
+    "preferred_identity_set": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sheet_count": 30,
+    "sheet_degree_histogram": {
+      "4": 30
+    },
+    "sheet_edge_count": 60
+  },
+  "status": "checkpoint_ok",
+  "warning": "This summarizes the external P900 sandbox through Phase 19. It is not a theorem and does not include internal G60 edges."
+}
