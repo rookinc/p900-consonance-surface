@@ -1,0 +1,169 @@
+{
+  "first_read": [
+    "Both preferred orbit representatives remain tied at total balance gap 1 with zero drift.",
+    "Phase 15 breaks the tie using local balance by cycle length.",
+    "The lower local balance score is preferred as a representative for the next external-surface tests.",
+    "This does not eliminate the other orbit family."
+  ],
+  "name": "P900 Phase 15 Local Balance Score",
+  "preferred_by_local_balance": {
+    "family": "gap1_orbit_2_representative",
+    "half_turn_set": [
+      0,
+      1,
+      2,
+      3,
+      9
+    ],
+    "local_balance_score": 13,
+    "max_length_gap": 7,
+    "per_length_scores": {
+      "3": {
+        "half_turn_closure": 5,
+        "identity_closure": 5,
+        "length_balance_gap": 0,
+        "orientation_drift": 0
+      },
+      "5": {
+        "half_turn_closure": 6,
+        "identity_closure": 6,
+        "length_balance_gap": 0,
+        "orientation_drift": 0
+      },
+      "6": {
+        "half_turn_closure": 32,
+        "identity_closure": 38,
+        "length_balance_gap": 6,
+        "orientation_drift": 0
+      },
+      "7": {
+        "half_turn_closure": 90,
+        "identity_closure": 90,
+        "length_balance_gap": 0,
+        "orientation_drift": 0
+      },
+      "8": {
+        "half_turn_closure": 146,
+        "identity_closure": 139,
+        "length_balance_gap": 7,
+        "orientation_drift": 0
+      }
+    },
+    "perfectly_balanced_length_count": 3,
+    "total_balance_gap": 1,
+    "total_half_turn_closures": 279,
+    "total_identity_closures": 278,
+    "total_orientation_drift": 0
+  },
+  "ranked_families": [
+    {
+      "family": "gap1_orbit_2_representative",
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "local_balance_score": 13,
+      "max_length_gap": 7,
+      "per_length_scores": {
+        "3": {
+          "half_turn_closure": 5,
+          "identity_closure": 5,
+          "length_balance_gap": 0,
+          "orientation_drift": 0
+        },
+        "5": {
+          "half_turn_closure": 6,
+          "identity_closure": 6,
+          "length_balance_gap": 0,
+          "orientation_drift": 0
+        },
+        "6": {
+          "half_turn_closure": 32,
+          "identity_closure": 38,
+          "length_balance_gap": 6,
+          "orientation_drift": 0
+        },
+        "7": {
+          "half_turn_closure": 90,
+          "identity_closure": 90,
+          "length_balance_gap": 0,
+          "orientation_drift": 0
+        },
+        "8": {
+          "half_turn_closure": 146,
+          "identity_closure": 139,
+          "length_balance_gap": 7,
+          "orientation_drift": 0
+        }
+      },
+      "perfectly_balanced_length_count": 3,
+      "total_balance_gap": 1,
+      "total_half_turn_closures": 279,
+      "total_identity_closures": 278,
+      "total_orientation_drift": 0
+    },
+    {
+      "family": "gap1_orbit_1_representative",
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "local_balance_score": 17,
+      "max_length_gap": 8,
+      "per_length_scores": {
+        "3": {
+          "half_turn_closure": 5,
+          "identity_closure": 5,
+          "length_balance_gap": 0,
+          "orientation_drift": 0
+        },
+        "5": {
+          "half_turn_closure": 6,
+          "identity_closure": 6,
+          "length_balance_gap": 0,
+          "orientation_drift": 0
+        },
+        "6": {
+          "half_turn_closure": 38,
+          "identity_closure": 32,
+          "length_balance_gap": 6,
+          "orientation_drift": 0
+        },
+        "7": {
+          "half_turn_closure": 86,
+          "identity_closure": 94,
+          "length_balance_gap": 8,
+          "orientation_drift": 0
+        },
+        "8": {
+          "half_turn_closure": 144,
+          "identity_closure": 141,
+          "length_balance_gap": 3,
+          "orientation_drift": 0
+        }
+      },
+      "perfectly_balanced_length_count": 2,
+      "total_balance_gap": 1,
+      "total_half_turn_closures": 279,
+      "total_identity_closures": 278,
+      "total_orientation_drift": 0
+    }
+  ],
+  "ranking_rule": [
+    "minimize orientation drift",
+    "minimize total identity/half-turn balance gap",
+    "minimize local balance score",
+    "minimize max per-length gap",
+    "maximize count of perfectly balanced lengths"
+  ],
+  "scoring_rule": "For each candidate family, sum abs(identity_closure - half_turn_closure) across each cycle length.",
+  "source": "p900_phase14_orbit_family_comparison.json",
+  "status": "sandbox_audit",
+  "warning": "This selects a preferred representative by local balance score only. It does not prove a final P900 law."
+}
