@@ -1,0 +1,570 @@
+{
+  "edge_label_counts": {
+    "half_turn": 15,
+    "identity": 15
+  },
+  "edge_records": [
+    {
+      "g15_edge": [
+        0,
+        1
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        0,
+        1
+      ],
+      "petersen_edge_b": [
+        1,
+        2
+      ],
+      "shared_petersen_vertex": 1,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        0,
+        4
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        0,
+        1
+      ],
+      "petersen_edge_b": [
+        4,
+        0
+      ],
+      "shared_petersen_vertex": 0,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        0,
+        5
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        0,
+        1
+      ],
+      "petersen_edge_b": [
+        0,
+        5
+      ],
+      "shared_petersen_vertex": 0,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        0,
+        6
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        0,
+        1
+      ],
+      "petersen_edge_b": [
+        1,
+        6
+      ],
+      "shared_petersen_vertex": 1,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        1,
+        2
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        1,
+        2
+      ],
+      "petersen_edge_b": [
+        2,
+        3
+      ],
+      "shared_petersen_vertex": 2,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        1,
+        6
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        1,
+        2
+      ],
+      "petersen_edge_b": [
+        1,
+        6
+      ],
+      "shared_petersen_vertex": 1,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        1,
+        7
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        1,
+        2
+      ],
+      "petersen_edge_b": [
+        2,
+        7
+      ],
+      "shared_petersen_vertex": 2,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        2,
+        3
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        2,
+        3
+      ],
+      "petersen_edge_b": [
+        3,
+        4
+      ],
+      "shared_petersen_vertex": 3,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        2,
+        7
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        2,
+        3
+      ],
+      "petersen_edge_b": [
+        2,
+        7
+      ],
+      "shared_petersen_vertex": 2,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        2,
+        8
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        2,
+        3
+      ],
+      "petersen_edge_b": [
+        3,
+        8
+      ],
+      "shared_petersen_vertex": 3,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        3,
+        4
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        3,
+        4
+      ],
+      "petersen_edge_b": [
+        4,
+        0
+      ],
+      "shared_petersen_vertex": 4,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        3,
+        8
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        3,
+        4
+      ],
+      "petersen_edge_b": [
+        3,
+        8
+      ],
+      "shared_petersen_vertex": 3,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        3,
+        9
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        3,
+        4
+      ],
+      "petersen_edge_b": [
+        4,
+        9
+      ],
+      "shared_petersen_vertex": 4,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        4,
+        5
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        4,
+        0
+      ],
+      "petersen_edge_b": [
+        0,
+        5
+      ],
+      "shared_petersen_vertex": 0,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        4,
+        9
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        4,
+        0
+      ],
+      "petersen_edge_b": [
+        4,
+        9
+      ],
+      "shared_petersen_vertex": 4,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        5,
+        10
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        0,
+        5
+      ],
+      "petersen_edge_b": [
+        5,
+        7
+      ],
+      "shared_petersen_vertex": 5,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        5,
+        14
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        0,
+        5
+      ],
+      "petersen_edge_b": [
+        8,
+        5
+      ],
+      "shared_petersen_vertex": 5,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        6,
+        12
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        1,
+        6
+      ],
+      "petersen_edge_b": [
+        9,
+        6
+      ],
+      "shared_petersen_vertex": 6,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        6,
+        13
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        1,
+        6
+      ],
+      "petersen_edge_b": [
+        6,
+        8
+      ],
+      "shared_petersen_vertex": 6,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        7,
+        10
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        2,
+        7
+      ],
+      "petersen_edge_b": [
+        5,
+        7
+      ],
+      "shared_petersen_vertex": 7,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        7,
+        11
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        2,
+        7
+      ],
+      "petersen_edge_b": [
+        7,
+        9
+      ],
+      "shared_petersen_vertex": 7,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        8,
+        13
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        3,
+        8
+      ],
+      "petersen_edge_b": [
+        6,
+        8
+      ],
+      "shared_petersen_vertex": 8,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        8,
+        14
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        3,
+        8
+      ],
+      "petersen_edge_b": [
+        8,
+        5
+      ],
+      "shared_petersen_vertex": 8,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        9,
+        11
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        4,
+        9
+      ],
+      "petersen_edge_b": [
+        7,
+        9
+      ],
+      "shared_petersen_vertex": 9,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        9,
+        12
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        4,
+        9
+      ],
+      "petersen_edge_b": [
+        9,
+        6
+      ],
+      "shared_petersen_vertex": 9,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        10,
+        11
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        5,
+        7
+      ],
+      "petersen_edge_b": [
+        7,
+        9
+      ],
+      "shared_petersen_vertex": 7,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        10,
+        14
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        5,
+        7
+      ],
+      "petersen_edge_b": [
+        8,
+        5
+      ],
+      "shared_petersen_vertex": 5,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        11,
+        12
+      ],
+      "interface_label": "half_turn",
+      "petersen_edge_a": [
+        7,
+        9
+      ],
+      "petersen_edge_b": [
+        9,
+        6
+      ],
+      "shared_petersen_vertex": 9,
+      "shift_mod_60": 30
+    },
+    {
+      "g15_edge": [
+        12,
+        13
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        9,
+        6
+      ],
+      "petersen_edge_b": [
+        6,
+        8
+      ],
+      "shared_petersen_vertex": 6,
+      "shift_mod_60": 0
+    },
+    {
+      "g15_edge": [
+        13,
+        14
+      ],
+      "interface_label": "identity",
+      "petersen_edge_a": [
+        6,
+        8
+      ],
+      "petersen_edge_b": [
+        8,
+        5
+      ],
+      "shared_petersen_vertex": 8,
+      "shift_mod_60": 0
+    }
+  ],
+  "g15_edges": 30,
+  "generated_utc": "2026-06-06T10:42:07.967095+00:00",
+  "name": "P900 Phase 16 Preferred Representative Edge Law",
+  "next_tests": [
+    "build explicit P900 external edge list for this representative",
+    "audit connectedness and degree distribution of the external-only surface",
+    "add a companion edge-law table for the other gap-1 family if needed",
+    "prepare for internal G60 edge import"
+  ],
+  "phase15_support": {
+    "local_balance_score": 13,
+    "max_length_gap": 7,
+    "orientation_drift": 0,
+    "perfectly_balanced_length_count": 3,
+    "total_balance_gap": 1,
+    "total_half_turn_closures": 279,
+    "total_identity_closures": 278
+  },
+  "preferred_family": "gap1_orbit_2_representative",
+  "preferred_half_turn_set": [
+    0,
+    1,
+    2,
+    3,
+    9
+  ],
+  "preferred_identity_set": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "rule": "For a G15 adjacency arising from two Petersen edges with shared Petersen vertex v, use half-turn if v is in [0,1,2,3,9], otherwise identity.",
+  "source": {
+    "phase13": "p900_phase13_candidate_orbit_families.json",
+    "phase15": "p900_phase15_local_balance_score.json"
+  },
+  "status": "preferred_representative_checkpoint",
+  "surface_counts": {
+    "external_degree": 4,
+    "g15_positions": 15,
+    "inter_thalion_edges": 1800,
+    "p900_states": 900
+  },
+  "warning": "This is a preferred representative for the next tests, not a final P900 law.",
+  "working_position": [
+    "This representative is selected from one of the two best gap-1 Petersen split orbits.",
+    "It is preferred over the other tested representative by local balance score.",
+    "Both gap-1 orbit families remain alive.",
+    "This edge-law table gives a concrete interface rule for subsequent P900 tests."
+  ]
+}
