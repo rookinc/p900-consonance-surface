@@ -1,0 +1,17 @@
+{
+  "address_form": "(g15_position, g60_state)",
+  "construction_layers": [
+    "address_space_only",
+    "internal_g60_edges_later",
+    "g15_inter_thalion_adjacency_stubbed",
+    "M_or_Q_interface_rule_later"
+  ],
+  "core_slogan": "P900 is the surface where thalions become vertices without ceasing to be bodies.",
+  "g15_edges": 30,
+  "g15_model": "L(Petersen)",
+  "g15_positions": 15,
+  "name": "P900 Consonance Surface Stub",
+  "p900_state_count": 900,
+  "status": "sandbox_hypothesis",
+  "thalion_states_per_position": 60
+}
