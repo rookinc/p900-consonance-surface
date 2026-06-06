@@ -1,0 +1,206 @@
+{
+  "candidate_audits": [
+    {
+      "bad_edges_sample": [],
+      "checks": {
+        "all_g15_sector_pairs_have_60_external_edges": true,
+        "all_residue_sheets_have_30_vertices": true,
+        "all_residue_sheets_have_60_external_edges": true,
+        "all_sector_fibers_have_120_internal_edges": true,
+        "all_sector_fibers_have_60_vertices": true,
+        "combined_edge_count_is_3600": true,
+        "external_edges_are_shift_0_or_30": true,
+        "internal_edges_are_same_sector": true,
+        "layer_recoverability_ok": true,
+        "unexpected_edge_count_is_0": true
+      },
+      "combined_edge_count": 3600,
+      "edge_class_counts": {
+        "external_half_turn_mod30": 900,
+        "external_identity_same_local": 900,
+        "internal_same_sector": 1800
+      },
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "identity_set": [
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "gap1_orbit_1_representative",
+      "residue_external_edge_count_histogram": {
+        "60": 30
+      },
+      "residue_sheet_sample": {
+        "0": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        },
+        "1": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        },
+        "2": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        },
+        "3": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        },
+        "4": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        }
+      },
+      "sector_fiber_sample": {
+        "0": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        },
+        "1": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        },
+        "2": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        },
+        "3": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        },
+        "4": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        }
+      },
+      "sector_internal_edge_count_histogram": {
+        "120": 15
+      },
+      "sector_pair_external_edge_count_histogram": {
+        "60": 30
+      }
+    },
+    {
+      "bad_edges_sample": [],
+      "checks": {
+        "all_g15_sector_pairs_have_60_external_edges": true,
+        "all_residue_sheets_have_30_vertices": true,
+        "all_residue_sheets_have_60_external_edges": true,
+        "all_sector_fibers_have_120_internal_edges": true,
+        "all_sector_fibers_have_60_vertices": true,
+        "combined_edge_count_is_3600": true,
+        "external_edges_are_shift_0_or_30": true,
+        "internal_edges_are_same_sector": true,
+        "layer_recoverability_ok": true,
+        "unexpected_edge_count_is_0": true
+      },
+      "combined_edge_count": 3600,
+      "edge_class_counts": {
+        "external_half_turn_mod30": 900,
+        "external_identity_same_local": 900,
+        "internal_same_sector": 1800
+      },
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "identity_set": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "name": "gap1_orbit_2_representative",
+      "residue_external_edge_count_histogram": {
+        "60": 30
+      },
+      "residue_sheet_sample": {
+        "0": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        },
+        "1": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        },
+        "2": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        },
+        "3": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        },
+        "4": {
+          "external_edge_count": 60,
+          "vertex_count": 30
+        }
+      },
+      "sector_fiber_sample": {
+        "0": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        },
+        "1": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        },
+        "2": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        },
+        "3": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        },
+        "4": {
+          "internal_edge_count": 120,
+          "vertex_count": 60
+        }
+      },
+      "sector_internal_edge_count_histogram": {
+        "120": 15
+      },
+      "sector_pair_external_edge_count_histogram": {
+        "60": 30
+      }
+    }
+  ],
+  "comparison": {
+    "both_layer_recoverability_ok": true,
+    "same_edge_class_counts": true,
+    "same_residue_external_histogram": true,
+    "same_sector_internal_histogram": true,
+    "same_sector_pair_external_histogram": true
+  },
+  "first_read": [
+    "Phase 29 checks whether the combined P900 graph still preserves the address-layer grammar.",
+    "Internal G60 edges should be exactly the same-sector edges.",
+    "External P900 edges should be exactly the inter-sector shift-0 or shift-30 edges.",
+    "Each sector fiber should recover one 60-state G60 copy with 120 internal edges.",
+    "Each mod-30 residue sheet should recover a 30-vertex doubled-G15 external sheet with 60 external edges.",
+    "Both gap-1 orbit representatives pass the layer recoverability audit."
+  ],
+  "name": "P900 Phase 29 Layer Recoverability Audit",
+  "phase": 29,
+  "purpose": "Test whether G15 sector fibers, internal G60 copies, and G30 residue sheets remain recoverable after overlay.",
+  "source_artifacts": {
+    "g60_import": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/p900-consonance-surface/artifacts/json/p900_phase22_canonical_g60_import.json",
+    "phase25": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/p900-consonance-surface/artifacts/json/p900_phase25_gap1_orbits_after_g60.json"
+  },
+  "status": "layer_recoverability_ok_for_both_gap1_orbits",
+  "warning": "This audits recoverability of known address layers. It does not prove canonical uniqueness."
+}
