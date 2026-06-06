@@ -1,0 +1,165 @@
+{
+  "coupling_edge_count": 1800,
+  "edge_label_counts": {
+    "backward_step_minus_1": 7,
+    "forward_step_plus_1": 7,
+    "half_turn_plus_30": 8,
+    "identity": 8
+  },
+  "edge_label_pattern": [
+    "identity",
+    "half_turn_plus_30",
+    "forward_step_plus_1",
+    "backward_step_minus_1"
+  ],
+  "edge_labels": {
+    "(0, 1)": {
+      "label": "identity",
+      "shift_mod_60": 0
+    },
+    "(0, 4)": {
+      "label": "half_turn_plus_30",
+      "shift_mod_60": 30
+    },
+    "(0, 5)": {
+      "label": "forward_step_plus_1",
+      "shift_mod_60": 1
+    },
+    "(0, 6)": {
+      "label": "backward_step_minus_1",
+      "shift_mod_60": -1
+    },
+    "(1, 2)": {
+      "label": "identity",
+      "shift_mod_60": 0
+    },
+    "(1, 6)": {
+      "label": "half_turn_plus_30",
+      "shift_mod_60": 30
+    },
+    "(1, 7)": {
+      "label": "forward_step_plus_1",
+      "shift_mod_60": 1
+    },
+    "(10, 11)": {
+      "label": "half_turn_plus_30",
+      "shift_mod_60": 30
+    },
+    "(10, 14)": {
+      "label": "forward_step_plus_1",
+      "shift_mod_60": 1
+    },
+    "(11, 12)": {
+      "label": "backward_step_minus_1",
+      "shift_mod_60": -1
+    },
+    "(12, 13)": {
+      "label": "identity",
+      "shift_mod_60": 0
+    },
+    "(13, 14)": {
+      "label": "half_turn_plus_30",
+      "shift_mod_60": 30
+    },
+    "(2, 3)": {
+      "label": "backward_step_minus_1",
+      "shift_mod_60": -1
+    },
+    "(2, 7)": {
+      "label": "identity",
+      "shift_mod_60": 0
+    },
+    "(2, 8)": {
+      "label": "half_turn_plus_30",
+      "shift_mod_60": 30
+    },
+    "(3, 4)": {
+      "label": "forward_step_plus_1",
+      "shift_mod_60": 1
+    },
+    "(3, 8)": {
+      "label": "backward_step_minus_1",
+      "shift_mod_60": -1
+    },
+    "(3, 9)": {
+      "label": "identity",
+      "shift_mod_60": 0
+    },
+    "(4, 5)": {
+      "label": "half_turn_plus_30",
+      "shift_mod_60": 30
+    },
+    "(4, 9)": {
+      "label": "forward_step_plus_1",
+      "shift_mod_60": 1
+    },
+    "(5, 10)": {
+      "label": "backward_step_minus_1",
+      "shift_mod_60": -1
+    },
+    "(5, 14)": {
+      "label": "identity",
+      "shift_mod_60": 0
+    },
+    "(6, 12)": {
+      "label": "half_turn_plus_30",
+      "shift_mod_60": 30
+    },
+    "(6, 13)": {
+      "label": "forward_step_plus_1",
+      "shift_mod_60": 1
+    },
+    "(7, 10)": {
+      "label": "backward_step_minus_1",
+      "shift_mod_60": -1
+    },
+    "(7, 11)": {
+      "label": "identity",
+      "shift_mod_60": 0
+    },
+    "(8, 13)": {
+      "label": "half_turn_plus_30",
+      "shift_mod_60": 30
+    },
+    "(8, 14)": {
+      "label": "forward_step_plus_1",
+      "shift_mod_60": 1
+    },
+    "(9, 11)": {
+      "label": "backward_step_minus_1",
+      "shift_mod_60": -1
+    },
+    "(9, 12)": {
+      "label": "identity",
+      "shift_mod_60": 0
+    }
+  },
+  "external_degree_histogram": {
+    "4": 900
+  },
+  "external_degree_max": 4,
+  "external_degree_min": 4,
+  "first_read": [
+    "The P900 external surface layer remains uniformly degree 4 under a deterministic edge-labeled stitching rule.",
+    "This is less product-like than applying one global local map everywhere.",
+    "The result suggests that G15 adjacency can host heterogeneous local orientation maps without immediate degree collapse.",
+    "No internal G60 edges are included yet.",
+    "No M or Q interface rule is included yet."
+  ],
+  "g15_edges": 30,
+  "g15_model": "L(Petersen)",
+  "g15_positions": 15,
+  "g60_local_states_per_position": 60,
+  "name": "P900 Phase 3 Edge-Labeled Coupling Stub",
+  "next_tests": [
+    "test cycle holonomy around cycles in G15 under edge-labeled shifts",
+    "compare edge-label shift sums against G15 cycle structure",
+    "introduce a half-turn-heavy G30-oriented labeling",
+    "add internal G60 edges when canonical data is available",
+    "compare M-guided and Q-guided interface rules against these baselines"
+  ],
+  "p900_state_count": 900,
+  "status": "sandbox_hypothesis",
+  "uniform_external_degree_4": true,
+  "warning": "This is a deterministic stitched-interface baseline, not a proven P900 law."
+}
