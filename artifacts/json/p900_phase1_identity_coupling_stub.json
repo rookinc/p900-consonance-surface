@@ -1,0 +1,29 @@
+{
+  "external_degree_histogram": {
+    "4": 900
+  },
+  "external_degree_max": 4,
+  "external_degree_min": 4,
+  "first_read": [
+    "The naive identity interface gives every P900 state external degree 4.",
+    "This matches the 4-regularity of G15 = L(Petersen).",
+    "No internal G60 edges are included yet.",
+    "No M or Q interface rule is included yet."
+  ],
+  "g15_edges": 30,
+  "g15_model": "L(Petersen)",
+  "g15_positions": 15,
+  "g60_local_states_per_position": 60,
+  "identity_coupling_edge_count": 1800,
+  "identity_coupling_rule": "for each G15 edge (s,t), couple (s,x) to (t,x) for every local state x",
+  "name": "P900 Phase 1 Identity Coupling Stub",
+  "next_tests": [
+    "add internal G60 edge layer from canonical thalion data",
+    "compare identity coupling against M/Q-guided coupling",
+    "test whether total degrees remain disciplined",
+    "test whether thalion identity is preserved under inter-thalion coupling"
+  ],
+  "p900_state_count": 900,
+  "status": "sandbox_hypothesis",
+  "warning": "This is a naive same-index interface rule, not a proven P900 law."
+}

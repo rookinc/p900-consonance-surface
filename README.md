@@ -30,6 +30,12 @@ Initial discipline:
 
 This is not yet a theorem. This directory is a sandbox for testing whether the construction closes cleanly.
 
+Current phase artifacts:
+
+- `artifacts/json/p900_stub_summary.json`
+- `artifacts/json/p900_phase1_identity_coupling_stub.json`
+- `artifacts/md/p900_phase1_identity_coupling_stub.md`
+
 Open tests:
 
 1. Does the construction preserve internal G60 identity?
