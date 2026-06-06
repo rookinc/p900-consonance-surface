@@ -1,0 +1,560 @@
+{
+  "best_identity_half_turn_balance_gap": 1,
+  "best_profile_count": 120,
+  "candidate_half_turn_set": [
+    1,
+    3,
+    5,
+    7,
+    9
+  ],
+  "candidate_profile": {
+    "closure_type_histogram": {
+      "half_turn_closure": 275,
+      "identity_closure": 282
+    },
+    "edge_label_counts": {
+      "half_turn": 15,
+      "identity": 15
+    },
+    "half_turn_closure_count": 275,
+    "half_turn_set": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "holonomy_shift_histogram_mod_60": {
+      "0": 282,
+      "30": 275
+    },
+    "identity_closure_count": 282,
+    "identity_half_turn_balance_gap": 7,
+    "orientation_drift_count": 0
+  },
+  "candidate_rank": 165,
+  "cycle_count": 557,
+  "cycle_search_max_length": 8,
+  "edge_label_count_histogram": {
+    "(('half_turn', 15), ('identity', 15))": 252
+  },
+  "first_read": [
+    "Phase 10 tests whether the candidate odd-vertex half-turn set is special among all 5-of-10 Petersen vertex splits.",
+    "Every 5-set is used as a half-turn set; its complement is identity.",
+    "The discriminator is the identity/half-turn closure balance over audited G15 cycles.",
+    "A low rank means the candidate split is not merely arbitrary."
+  ],
+  "gap_histogram": {
+    "1": 120,
+    "7": 60,
+    "15": 12,
+    "17": 60
+  },
+  "name": "P900 Phase 10 Vertex Split Family Audit",
+  "status": "sandbox_audit",
+  "tested_half_turn_sets": 252,
+  "top_profiles": [
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        8
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        4,
+        9
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        5,
+        8
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        5,
+        9
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        7,
+        8
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        7,
+        9
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        3,
+        4,
+        8
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        3,
+        5,
+        8
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        3,
+        6,
+        8
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        3,
+        6,
+        9
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        4,
+        6,
+        7
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    },
+    {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        4,
+        6,
+        8
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 278,
+        "30": 279
+      },
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "orientation_drift_count": 0
+    }
+  ],
+  "warning": "This compares 5-and-5 Petersen vertex splits as binary half-turn sets. It does not prove a final P900 law."
+}

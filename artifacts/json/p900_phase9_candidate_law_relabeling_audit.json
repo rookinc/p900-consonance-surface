@@ -1,0 +1,41 @@
+{
+  "all_profiles_no_orientation_drift": true,
+  "automorphism_count": 120,
+  "best_identity_half_turn_balance_gap": 7,
+  "candidate_law_under_test": "shared_vertex_parity_binary_consonance",
+  "cycle_count": 557,
+  "cycle_search_max_length": 8,
+  "distinct_profile_count": 1,
+  "distinct_profiles": [
+    {
+      "automorphism_count": 120,
+      "example_permutation": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+      },
+      "half_turn_closure_count": 275,
+      "identity_closure_count": 282,
+      "identity_half_turn_balance_gap": 7,
+      "orientation_drift_count": 0
+    }
+  ],
+  "first_read": [
+    "This audit tests whether the candidate parity law is stable under Petersen automorphisms.",
+    "Because the law uses odd/even labels, it may depend on the chosen labeling of Petersen vertices.",
+    "If the profile is not constant, the current candidate law is coordinate-sensitive.",
+    "If all profiles still have zero drift, the binary 0/30 discipline survives relabeling even if balance changes."
+  ],
+  "name": "P900 Phase 9 Candidate Law Relabeling Audit",
+  "profile_is_constant_under_petersen_automorphisms": true,
+  "status": "sandbox_audit",
+  "warning": "This audits dependence on Petersen vertex labeling. It does not prove an intrinsic P900 law.",
+  "worst_identity_half_turn_balance_gap": 7
+}
