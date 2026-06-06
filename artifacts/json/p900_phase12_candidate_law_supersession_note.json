@@ -1,0 +1,399 @@
+{
+  "current_working_position": [
+    "P900 remains a candidate consonance surface, not a proven graph identity.",
+    "Binary 0/30 sign grammar remains strongly supported as the drift-free surface discipline.",
+    "The Phase 7 parity law is retained as a stable baseline.",
+    "The preferred next candidate should be selected from the two best gap-1 Petersen split-orbit families found in Phase 11.",
+    "Future work should treat the best object as an orbit family, not a single labeled split."
+  ],
+  "generated_utc": "2026-06-06T10:36:06.959654+00:00",
+  "name": "P900 Phase 12 Candidate Law Supersession Note",
+  "next_steps": [
+    "promote the two gap-1 split orbits as candidate consonance families",
+    "choose one representative from each best orbit for further testing",
+    "compare orbit 1 and orbit 2 against added internal G60 data",
+    "avoid claiming the Phase 7 odd/even split as final"
+  ],
+  "phase10_profile": {
+    "best_identity_half_turn_balance_gap": 1,
+    "best_profile_count": 120,
+    "candidate_profile": {
+      "closure_type_histogram": {
+        "half_turn_closure": 275,
+        "identity_closure": 282
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 275,
+      "half_turn_set": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "holonomy_shift_histogram_mod_60": {
+        "0": 282,
+        "30": 275
+      },
+      "identity_closure_count": 282,
+      "identity_half_turn_balance_gap": 7,
+      "orientation_drift_count": 0
+    },
+    "candidate_rank": 165,
+    "gap_histogram": {
+      "1": 120,
+      "15": 12,
+      "17": 60,
+      "7": 60
+    },
+    "tested_half_turn_sets": 252
+  },
+  "phase11_profile": {
+    "best_orbits": [
+      {
+        "distinct_profile_count": 1,
+        "gap_histogram": {
+          "1": 60
+        },
+        "orbit_size": 60,
+        "representative": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "representative_profile": {
+          "closure_type_histogram": {
+            "half_turn_closure": 279,
+            "identity_closure": 278
+          },
+          "edge_label_counts": {
+            "half_turn": 15,
+            "identity": 15
+          },
+          "half_turn_closure_count": 279,
+          "identity_closure_count": 278,
+          "identity_half_turn_balance_gap": 1,
+          "orientation_drift_count": 0
+        },
+        "sample_sets": [
+          [
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            8
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            9
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            8
+          ],
+          [
+            0,
+            1,
+            2,
+            7,
+            9
+          ],
+          [
+            0,
+            1,
+            3,
+            4,
+            6
+          ],
+          [
+            0,
+            1,
+            3,
+            4,
+            8
+          ],
+          [
+            0,
+            1,
+            3,
+            5,
+            8
+          ],
+          [
+            0,
+            1,
+            3,
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "distinct_profile_count": 1,
+        "gap_histogram": {
+          "1": 60
+        },
+        "orbit_size": 60,
+        "representative": [
+          0,
+          1,
+          2,
+          3,
+          9
+        ],
+        "representative_profile": {
+          "closure_type_histogram": {
+            "half_turn_closure": 279,
+            "identity_closure": 278
+          },
+          "edge_label_counts": {
+            "half_turn": 15,
+            "identity": 15
+          },
+          "half_turn_closure_count": 279,
+          "identity_closure_count": 278,
+          "identity_half_turn_balance_gap": 1,
+          "orientation_drift_count": 0
+        },
+        "sample_sets": [
+          [
+            0,
+            1,
+            2,
+            3,
+            9
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            8
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            9
+          ],
+          [
+            0,
+            1,
+            2,
+            7,
+            8
+          ],
+          [
+            0,
+            1,
+            3,
+            4,
+            7
+          ],
+          [
+            0,
+            1,
+            3,
+            5,
+            6
+          ],
+          [
+            0,
+            1,
+            3,
+            5,
+            7
+          ],
+          [
+            0,
+            1,
+            3,
+            6,
+            9
+          ],
+          [
+            0,
+            1,
+            4,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            4,
+            8,
+            9
+          ]
+        ]
+      }
+    ],
+    "candidate_orbit_rank": 3,
+    "orbit_count": 6,
+    "previous_candidate_orbit": {
+      "distinct_profile_count": 1,
+      "gap_histogram": {
+        "7": 30
+      },
+      "orbit_size": 30,
+      "representative": [
+        0,
+        1,
+        2,
+        8,
+        9
+      ],
+      "representative_profile": {
+        "closure_type_histogram": {
+          "half_turn_closure": 275,
+          "identity_closure": 282
+        },
+        "edge_label_counts": {
+          "half_turn": 15,
+          "identity": 15
+        },
+        "half_turn_closure_count": 275,
+        "identity_closure_count": 282,
+        "identity_half_turn_balance_gap": 7,
+        "orientation_drift_count": 0
+      },
+      "sample_sets": [
+        [
+          0,
+          1,
+          2,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          5,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          4,
+          7,
+          8
+        ],
+        [
+          0,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          0,
+          2,
+          3,
+          8,
+          9
+        ],
+        [
+          0,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          2,
+          4,
+          8,
+          9
+        ],
+        [
+          0,
+          2,
+          5,
+          8,
+          9
+        ],
+        [
+          0,
+          2,
+          6,
+          8,
+          9
+        ]
+      ]
+    }
+  },
+  "phase7_profile": {
+    "edge_label_counts": {
+      "half_turn": 15,
+      "identity": 15
+    },
+    "external_degree_histogram": {
+      "4": 900
+    },
+    "phase6_support": {
+      "cycle_count_audited": 557,
+      "half_turn_closure_count": 275,
+      "identity_closure_count": 282,
+      "identity_half_turn_balance_gap": 7,
+      "orientation_drift_count": 0,
+      "ranking": "best among tested binary label families by no drift then identity/half-turn balance"
+    }
+  },
+  "phase9_profile": {
+    "all_profiles_no_orientation_drift": true,
+    "automorphism_count": 120,
+    "best_identity_half_turn_balance_gap": 7,
+    "distinct_profile_count": 1,
+    "profile_is_constant_under_petersen_automorphisms": true,
+    "worst_identity_half_turn_balance_gap": 7
+  },
+  "reason_for_supersession": [
+    "Phase 7 promoted the odd/even shared Petersen vertex parity rule because it was incidence-derived and balanced better than earlier simple baselines.",
+    "Phase 9 showed the Phase 7 closure profile is constant under all 120 Petersen automorphisms.",
+    "Phase 10 showed the Phase 7 split is not optimal among all 252 five-vertex half-turn sets.",
+    "Phase 11 showed the best balance gap belongs to two Petersen automorphism orbits of size 60 each."
+  ],
+  "status": "supersession_checkpoint",
+  "superseded_item": {
+    "former_status": "candidate_law_sandbox",
+    "name": "shared_vertex_parity_binary_consonance",
+    "new_status": "stable baseline, not preferred final candidate",
+    "phase": "phase7"
+  },
+  "warning": "This is an audit-trail note. It does not prove a final P900 law."
+}
