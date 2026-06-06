@@ -1,0 +1,171 @@
+{
+  "cycle_count": 557,
+  "cycle_search_max_length": 8,
+  "diff_by_length": {
+    "3": {
+      "gap1_orbit_1_representative": {
+        "half_turn_closure": 5,
+        "identity_closure": 5
+      },
+      "gap1_orbit_2_representative": {
+        "half_turn_closure": 5,
+        "identity_closure": 5
+      }
+    },
+    "5": {
+      "gap1_orbit_1_representative": {
+        "half_turn_closure": 6,
+        "identity_closure": 6
+      },
+      "gap1_orbit_2_representative": {
+        "half_turn_closure": 6,
+        "identity_closure": 6
+      }
+    },
+    "6": {
+      "gap1_orbit_1_representative": {
+        "half_turn_closure": 38,
+        "identity_closure": 32
+      },
+      "gap1_orbit_2_representative": {
+        "half_turn_closure": 32,
+        "identity_closure": 38
+      }
+    },
+    "7": {
+      "gap1_orbit_1_representative": {
+        "half_turn_closure": 86,
+        "identity_closure": 94
+      },
+      "gap1_orbit_2_representative": {
+        "half_turn_closure": 90,
+        "identity_closure": 90
+      }
+    },
+    "8": {
+      "gap1_orbit_1_representative": {
+        "half_turn_closure": 144,
+        "identity_closure": 141
+      },
+      "gap1_orbit_2_representative": {
+        "half_turn_closure": 146,
+        "identity_closure": 139
+      }
+    }
+  },
+  "families": {
+    "gap1_orbit_1_representative": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "gap1_orbit_2_representative": [
+      0,
+      1,
+      2,
+      3,
+      9
+    ]
+  },
+  "first_read": [
+    "Phase 14 compares the two preferred gap-1 candidate orbit families.",
+    "Both representatives have total closure balance 278/279 and zero drift.",
+    "The useful question is whether they differ by cycle length profile.",
+    "If the length profiles match, the next discriminator must involve finer cycle records or internal G60 data."
+  ],
+  "name": "P900 Phase 14 Orbit Family Comparison",
+  "profiles": {
+    "gap1_orbit_1_representative": {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "length_closure_histogram": {
+        "3": {
+          "half_turn_closure": 5,
+          "identity_closure": 5
+        },
+        "5": {
+          "half_turn_closure": 6,
+          "identity_closure": 6
+        },
+        "6": {
+          "half_turn_closure": 38,
+          "identity_closure": 32
+        },
+        "7": {
+          "half_turn_closure": 86,
+          "identity_closure": 94
+        },
+        "8": {
+          "half_turn_closure": 144,
+          "identity_closure": 141
+        }
+      },
+      "orientation_drift_count": 0
+    },
+    "gap1_orbit_2_representative": {
+      "closure_type_histogram": {
+        "half_turn_closure": 279,
+        "identity_closure": 278
+      },
+      "edge_label_counts": {
+        "half_turn": 15,
+        "identity": 15
+      },
+      "half_turn_closure_count": 279,
+      "half_turn_set": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "identity_closure_count": 278,
+      "identity_half_turn_balance_gap": 1,
+      "length_closure_histogram": {
+        "3": {
+          "half_turn_closure": 5,
+          "identity_closure": 5
+        },
+        "5": {
+          "half_turn_closure": 6,
+          "identity_closure": 6
+        },
+        "6": {
+          "half_turn_closure": 32,
+          "identity_closure": 38
+        },
+        "7": {
+          "half_turn_closure": 90,
+          "identity_closure": 90
+        },
+        "8": {
+          "half_turn_closure": 146,
+          "identity_closure": 139
+        }
+      },
+      "orientation_drift_count": 0
+    }
+  },
+  "same_length_profile": false,
+  "same_total_profile": true,
+  "status": "sandbox_audit",
+  "warning": "This compares representative split laws from the two preferred orbit families. It does not prove a final P900 law."
+}
