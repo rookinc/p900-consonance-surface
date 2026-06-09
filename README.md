@@ -1,12 +1,12 @@
 # P900 Consonance Surface
 
-Status: sandbox hypothesis
+Status: connected candidate checkpoint
 
 Working claim:
 
 P900 is a candidate 15-thalion consonance surface. It is formed by placing one G60 thalion at each G15 sector-position and using the G15 sector grammar to govern inter-thalion adjacency.
 
-Core slogan:
+Working interpretation:
 
     G60 is the body.
     P900 is the surface where bodies become mutually viewable.
@@ -44,11 +44,25 @@ Open tests:
 4. Does the resulting 900-state object close without collapse?
 5. Is the sphere only a visualization, or does a spherical realization emerge from the construction?
 
-## Current checkpoint: external P900 surface
+
+## Current status
+
+See `CURRENT_STATUS.md` for the current checkpoint interpretation.
+
+Short form:
+
+    P900 is now an artifact-backed connected candidate pipeline.
+    It is not yet a theorem or final law selection.
+    The current object is the closure-bearing gap-1 family.
+    Orbit 2 is the provisional local-balance selector.
+    Orbit 1 remains the global-tightness countercandidate.
+
+
+## Historical checkpoint: external P900 surface
 
 Status: external-surface sandbox checkpoint
 
-The strongest current artifact-backed statement is:
+The strongest Phase 20 artifact-backed statement was:
 
     The preferred external P900 layer is a G30-indexed family
     of 30 identical doubled-G15 sheets.
@@ -92,6 +106,4 @@ Key checkpoint artifacts:
 - `artifacts/json/p900_phase17_external_edge_list.json`
 - `artifacts/md/p900_phase17_external_edge_list.md`
 
-Next intended move:
-
-    Prepare an internal G60 import strategy and test whether internal thalion edges connect the 30 doubled-G15 sheets.
+That next move has since been carried out in Phases 21-30. See CURRENT_STATUS.md for the current connected candidate checkpoint.
